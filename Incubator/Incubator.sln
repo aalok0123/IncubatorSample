@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncubatorWebAPI", "IncubatorWebAPI\IncubatorWebAPI.csproj", "{FD38FBF0-95DC-454D-AE2F-174AF4AF72A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncubatorClient", "IncubatorClient\IncubatorClient.csproj", "{E2FB0106-C7D0-4A81-BDA7-FAAB9E28979D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{FD38FBF0-95DC-454D-AE2F-174AF4AF72A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD38FBF0-95DC-454D-AE2F-174AF4AF72A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD38FBF0-95DC-454D-AE2F-174AF4AF72A4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E2FB0106-C7D0-4A81-BDA7-FAAB9E28979D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2FB0106-C7D0-4A81-BDA7-FAAB9E28979D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2FB0106-C7D0-4A81-BDA7-FAAB9E28979D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E2FB0106-C7D0-4A81-BDA7-FAAB9E28979D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
