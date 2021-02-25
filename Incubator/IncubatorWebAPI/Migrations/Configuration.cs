@@ -5,14 +5,14 @@
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<IncubatorWebAPI.Context.IncubatorContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<IncubatorWebAPI.Models.ApplicationDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(IncubatorWebAPI.Context.IncubatorContext context)
+        protected override void Seed(IncubatorWebAPI.Models.ApplicationDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 
