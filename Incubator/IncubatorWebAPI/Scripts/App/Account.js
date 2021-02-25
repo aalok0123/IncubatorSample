@@ -23,9 +23,10 @@
             success: function (result) {
 
                 alert('saved');
+                location.href = '/Account/login';
             },
             error: function (error) {
-                alert('error');
+                //alert('error');
             }
 
         });
@@ -85,7 +86,7 @@
                 headers: {
                     Authorization: 'Bearer ' + token
                 },
-                url: 'api/Account/Logout',
+                url: '/api/Account/Logout',
 
                 data: {},
                 success: function (response) {
@@ -112,7 +113,10 @@
             $('#linkLogout').text('Logout');
         }
         else {
-            if (!(location.href.indexOf('login') > 0)) {
+            if (location.href.indexOf('login') > 0 || location.href.indexOf('Register') > 0) {
+                //ignore
+            }
+            else {
                 location.href = '/Account/login';
             }
         }

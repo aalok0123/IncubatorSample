@@ -1,6 +1,7 @@
 ﻿function ready() {
 
     $('#btnCompanyCreate').click(function (e) {
+        debugger
         e.preventDefault();
 
         var name = $('#Name').val();

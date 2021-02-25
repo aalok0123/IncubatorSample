@@ -83,8 +83,10 @@ namespace IncubatorWebAPI.APIControllers
             return CreatedAtRoute("DefaultApi", new { id = company.Id }, company);
         }
 
-        // DELETE: api/Companies/5
+        // DELETE: 
         [ResponseType(typeof(Company))]
+        [Route("api/Companies/Delete/{id}")]
+        [HttpPost]
         public IHttpActionResult DeleteCompany(int id)
         {
             Company company = db.Companies.Find(id);
